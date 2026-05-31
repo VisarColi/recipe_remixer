@@ -1,0 +1,16 @@
+{
+  "name": "recipe-remixer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Paste any recipe + a constraint, get an adapted recipe with a what-changed summary.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.0"
+  }
+}
